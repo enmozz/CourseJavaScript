@@ -60,6 +60,7 @@ h1 {
   }
 
   button:hover {
+    border: 2px solid white;
     background-color: rgba(0, 0, 0, 0.1);
   }
 
