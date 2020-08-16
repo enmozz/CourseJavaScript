@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>CSS Grid Items Sneakers | Zinglecode</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>exchange</h1>
+  </header>
+
+  <div class="grid">
+    <div class="item">
+      <div class="content">
+
+        <h3>Thai Baht (THB) to US Dollar (USD)</h3>
+        <input id="inputbath" type="text" placeholder="THB">
+        <div id="showUSD"></div>
+
+        <button onclick="toUSDProgram(document.getElementById('inputbath').value)">exchang</button>
+
+      </div>
+    </div>
+    <div class="item">
+      <div class="content">
+
+        <h3>Thai Baht (THB) to Korean Won (KRW)</h3>
+        <input id="inputbath2" type="text" placeholder="THB">
+        <div id="showWon"></div>
+
+        <button onclick="toWonProgram(document.getElementById('inputbath2').value)">exchang</button>
+
+      </div>
+    </div>
+    <div class="item">
+      <div class="content">
+
+        <h3>Thai Baht (THB) to Japanese Yen (JPY)</h3>
+        <input id="inputbath3" type="text" placeholder="THB">
+        <div id="showJPY"></div>
+
+        <button onclick="toJPYProgram(document.getElementById('inputbath3').value)">exchang</button>
+
+      </div>
+    </div>
+    <div class="item">
+      <div class="content">
+
+        <h3>Thai Baht (THB) to Chinese Yuan (CNY))</h3>
+        <input id="inputbath4" type="text" placeholder="THB">
+        <div id="showCNY"></div>
+
+        <button onclick="toCNYProgram(document.getElementById('inputbath4').value)">exchang</button>
+
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="content">
+
+        <h3>Thai Baht (THB) to Euro (EUR)</h3>
+        <input id="inputbath5" type="text" placeholder="THB">
+        <div id="showEUR"></div>
+
+        <button onclick="toEURProgram(document.getElementById('inputbath5').value)">exchang</button>
+
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="content">
+
+        <h3>Thai Baht (THB) toBritish Pound (GBP))</h3>
+        <input id="inputbath6" type="text" placeholder="THB">
+        <div id="showGBP"></div>
+
+        <button onclick="toGBPProgram(document.getElementById('inputbath6').value)">exchang</button>
+
+      </div>
+    </div>
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
